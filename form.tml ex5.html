@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+    <form method="POST" action="form.html">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="nome">Name</label>
+            <input type="text" name="nome" required pattern="[A-Z][a-z]+\s[A-Z][a-z]+">
+            <br><br>
+            <input type="radio" name="membership" id="member" value="member" checked>Member
+            <!--checked faz com que a opcao no inicio do site
+            seja já a pre selecionada-->
+            <input type="radio" name="membership" id="non-member" value="non-member">Non-Member
+            <br>
+            <br>
+            Email:<input type="text">
+            <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+                <legend>Reservation Info</legend>
+                <label for="Facility">Facility</label>
+                <select name="Facility" id="Facility">
+                    <option value="badminton">Badmninton</option>
+                    <option value="badminton2">Badmninton2</option>
+                    <option value="badminton3">Badmninton3</option>
+                </select>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

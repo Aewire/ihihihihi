@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<body>
+
+		<form method="POST" action="form.html">
+			 <fieldset>
+				  <legend>Personal info:</legend>
+						<label for="nome">Name</label>
+						<input type="text" name="nome" required pattern="[A-Z][a-z]+\s[A-Z][a-z]+"><br><br>
+						<input type="radio" name="membership" value="non-member">non-member
+						<input type="radio" name="membership" value="member">member<br><br>
+				  Email: <input type="text"><br>
+
+			 </fieldset><br><br>
+			 <fieldset>
+				<legend>Reservation info:</legend>
+				<select>
+					<option value="select">--Select a option--</option>
+				  <option value="badmington">badmington</option>
+				  <option value="Squash">Squash</option>
+				  <option value="Racquetball">Racquetball</option>
+				</select><br><br>
+				<input type="datetime-local" name="bdaytime"><br><br>
+				<input type="checkbox" name="vali" value="validation"> I agree to the club’s reservation policy<br><br>
+				<input type="submit" value="Send">
+			 </fieldset>
+		</form>
+
+	</body>
+</html>
