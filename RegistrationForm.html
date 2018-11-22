@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form method="POST" action="http://www.webucator.com/course-demos/htm101/process-form.cfm">
+
+        Username:<br> <input type="text" name="Username" id="Username"><br>
+        Password:<br> <input type="password" name="Password" id="Password"><br>
+        <input type="hidden" name="emailme" id="emailme" value="you@you.com">
+        <input type="submit" name="submitbutton" id="submitbutton" value="Register">
+        <input type="reset" name="resetbutton" id="resetbutton" value="Reset">
+        <br>
+        <input type="radio" name="gender" id="genderm"> Male
+        <br>
+        <input type="radio" name="gender" id="genderf"> Female
+        <br>
+        <label for="referral">Referral:</label>
+        <select name="referral" id="referral">
+            <option value="0">--PLease Choose--</option>
+            <option value="wom">Word of Mouth</option>
+            <option value="Other">Other</option>
+            <optgroup label="search Engine">
+                <option value="Google">Google</option>
+                <option value="yahoo">yahoo!</option>
+                <option value="MSN">MSN</option>
+
+            </optgroup>
+            <br>
+        </select>
+        <label for="comments">Comments:
+
+        </label>
+        <textarea rows="4" cols="50" id=comments name=comments>
+                 </textarea>
+
+
+
+    </form>
+</body>
+
+</html>
